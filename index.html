@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger House | O Melhor Sabor da Cidade</title>
+    
+    <link rel="stylesheet" href="static/css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-danger fs-3" href="#"><img src="static/img/logo_burguer_station.png" alt="Logo da Station Burguer" width="100px" height="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Cardápio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container text-center">
+            <h1 class="animate__animated animate__fadeInUp">SABOR QUE <br><span>VICIA</span></h1>
+            <p class="lead mb-4">Hambúrgueres artesanais, batatas crocantes e milkshakes cremosos.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#menu" class="btn btn-warning btn-lg fw-bold">Ver Cardápio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="">
+        <div class="container">
+            <div class="text-center mt-5 mb-5">
+                <h2 class="text-danger fw-bold">NOSSO CARDÁPIO</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-menu h-100">
+                        <img src="static/img/x-bacon.png" alt="X-bacon">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">X-Bacon</h5>
+                            <p class="card-text text-muted">Pão brioche, 2 blends de 150g, muito bacon crocante e queijo cheddar.</p>
+                            <div class="price-tag mb-3">R$ 32,90</div>
+                            <a href="#" class="btn btn-outline-danger w-100">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-menu h-100">
+                         <img src="static/img/batata.png" alt="Batata Suprema">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Batata Frita</h5>
+                            <p class="card-text text-muted">Batata rústica com cheddar cremoso e farofa de bacon.</p>
+                            <div class="price-tag mb-3">R$ 18,50</div>
+                            <a href="#" class="btn btn-outline-danger w-100">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-menu h-100">
+                         <img src="static/img/milkshake.png" class="card-img-top" alt="Milkshake Morango">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Shakes</h5>
+                            <p class="card-text text-muted">Diversos sabores e feitos com sorvete artesanal, pedaços de fruta e chantilly.</p>
+                            <div class="price-tag mb-3">R$ 16,00</div>
+                            <a href="#" class="btn btn-outline-danger w-100">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="mb-15">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mt-4 mt-md-0 ps-md-5">
+                    <h2 class="mb-4 mt-4">Por que a Station Burguer?</h2>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="m-3"><i class="bi bi-clock-history feature-icon"></i></div>
+                        <div>
+                            <h5>Entrega Rápida</h5>
+                            <p class="text-muted">Seu lanche chega quente e rápido na sua casa.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div class="m-3"><i class="bi bi-award feature-icon"></i></div>
+                        <div>
+                            <h5>Ingredientes Frescos</h5>
+                            <p class="text-muted">Carne moída no dia e vegetais selecionados.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="m-3"><i class="bi bi-heart feature-icon"></i></div>
+                        <div>
+                            <h5>Feito com Amor</h5>
+                            <p class="text-muted">Receitas de família com aquele toque especial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="text-warning mb-3">Station Burguer</h4>
+                    <p>O ponto de encontro dos amantes de hambúrguer. Qualidade, sabor e tradição.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Horário de Funcionamento</h5>
+                    <ul class="list-unstyled">
+                        <li>Seg - Qui: 18h às 23h</li>
+                        <li>Sex - Sáb: 18h às 01h</li>
+                        <li>Domingo: 17h às 23h</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Contato</h5>
+                    <p><i class="bi bi-geo-alt-fill text-warning"></i> Rua das Flores, 123 - Centro</p>
+                    <p><i class="bi bi-whatsapp text-warning"></i> (11) 99999-9999</p>
+                    <p><i class="bi bi-envelope-fill text-warning"></i> contato@stationbg.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

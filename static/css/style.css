@@ -1,0 +1,100 @@
+:root {
+            --amarelo: #ffc107; 
+            --preto: #212529;
+            --vermelho: #dc3545; 
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, .navbar-brand {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+        }
+
+       
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .nav-link {
+            font-weight: 600;
+            color: var(--preto) !important;
+        }
+        .nav-link:hover {
+            color: var(--vermelho) !important;
+        }
+        .btn-order {
+            background-color: var(--vermelho);
+            color: white;
+            border-radius: 50px;
+            padding: 8px 25px;
+            font-weight: bold;
+        }
+        .btn-order:hover {
+            background-color: #bb2d3b;
+            color: white;
+        }
+
+      
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://www.estadao.com.br/resizer/v2/77XTHHCCLBEXLC2Y5RK4PN37CE.jpg?quality=80&auth=a86d285f74ec7c08de7ba6ec10d557a463d905ffec2e56009d737687ac6054a1&width=1200&height=900&focal=553,494);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .hero span {
+            color: var(--amarelo);
+        }
+
+       
+        .card-menu {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .card-menu:hover {
+            transform: translateY(-10px);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .price-tag {
+            font-size: 1.5rem;
+            color: var(--vermelho);
+            font-weight: bold;
+        }
+
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--amarelo);
+            margin-bottom: 1rem;
+        }
+
+        
+        footer {
+            background-color: var(--preto);
+            color: white;
+            padding: 50px 0;
+        }
+        footer a {
+            color: #ddd;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: var(--amarelo);
+        }
+
+        
